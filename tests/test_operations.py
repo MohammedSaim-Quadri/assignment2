@@ -4,7 +4,7 @@ from app.operations import addition, division, subtraction, multiplication
 def test_addition_positive():
     assert addition(1,1) == 2
     assert addition(6,4) == 10
-    assert addition(-10,5) == 5
+    assert addition(-10,5) == -5
 
 def test_addition_negative():
     assert addition(-6,-4) == -10
